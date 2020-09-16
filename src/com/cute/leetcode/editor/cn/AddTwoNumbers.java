@@ -10,7 +10,7 @@
 //输出：7 -> 0 -> 8
 //原因：342 + 465 = 807
 // 
-// Related Topics 链表 数学 
+// Related Topics  链表 数学
 // 👍 4842 👎 0
 
 package com.cute.leetcode.editor.cn;
