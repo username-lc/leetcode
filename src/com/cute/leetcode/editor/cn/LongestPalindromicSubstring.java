@@ -12,7 +12,7 @@
 // 输入: "cbbd"
 //输出: "bb"
 // 
-// Related Topics 字符串 动态规划 
+// Related Topics 字符串  动态规划
 // 👍 2654 👎 0
 
 package com.cute.leetcode.editor.cn;
