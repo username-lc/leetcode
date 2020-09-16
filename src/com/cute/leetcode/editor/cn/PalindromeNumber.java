@@ -35,6 +35,7 @@ public class PalindromeNumber {
         System.out.println(solution.isPalindrome(1231));
     }
 
+
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isPalindrome(int x) {
