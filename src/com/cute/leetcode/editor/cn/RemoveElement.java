@@ -49,18 +49,36 @@
 // 👍 650 👎 0
 
 package com.cute.leetcode.editor.cn;
+
 public class RemoveElement {
 
     public static void main(String[] args) {
         Solution solution = new RemoveElement().new Solution();
+        int[] nums = {0,1,2,2,3,0,4,2};
+        int i = solution.removeElement(nums, 2);
+        for (int j = 0; j < i; j++) {
+            System.out.println(nums[j]);
+        }
     }
-    
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int removeElement(int[] nums, int val) {
 
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int removeElement(int[] nums, int val) {
+
+            int i = 0;
+            for (int j = 0; j < nums.length; j++) {
+                int num = nums[j];
+                if (num == val) {
+                   continue;
+                }else {
+                    nums[i] = nums[j];
+                    i++;
+                }
+            }
+
+            return i ;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
